@@ -1,0 +1,95 @@
+body {
+    background-color: turquoise; 
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.screen {
+    background-color: grey;
+    border: solid black 2px;
+    color: white;
+    font-size: medium;
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+input[type='button']:hover{
+    background-color: whitesmoke;
+}
+
+input[type='button']:activate{
+    background-color: orange;
+}
+
+.operator {
+    background-color: orchid;
+    padding: 5px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.number {
+    padding: 5px;
+    height: 40px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.decimal {
+    background-color: burlywood;
+    padding: 5px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.clear {
+    background-color: brown;
+    padding: 5px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.equal {
+    background-color: brown;
+    padding: 5px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: wheat;
+    padding: 5px;
+    color: grey;
+    border: solid goldenrod 2px;
+    width: 40%;
+    display: block;
+    margin: 100px auto;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 5x 10px 20px greenyellow;
+}
+
+table {
+    width: 100%;
+}
